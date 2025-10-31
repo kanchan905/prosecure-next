@@ -1,0 +1,190 @@
+:root{
+    --basic-100 : rgba(255, 255, 255, 1);
+    --transparent-basic-white-8 : rgba(255, 255, 255, 0.08);
+    --main-color: #933435;
+    --primary-color:#fba504;
+    --hover-primary-color:#fb9804;
+}
+.eva-btn{
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.eva-btn:hover{
+    color: #212529;
+}
+/* basic eva button  */
+.eva-btn-dark{
+    color: var(--basic-100, #FFF);
+    background: #000;   
+}
+.eva-btn-primary{
+    color: var(--basic-100, #FFF);
+    background-color: var(--main-color);
+}
+.eva-btn-nuth{
+    color: var(--basic-100, #fff);
+    background-color: var(--main-color);
+}
+.eva-btn-jasper{
+    color: var(--basic-100, #fff);
+    background-color: var(--primary-color);
+}
+.eva-btn-info{
+    color: #fff;
+    background-color: #00acee;
+}
+.eva-btn-danger{
+    color: #fff;
+    background-color: #CD201F;
+}
+.eva-btn-success{
+    color: #fff;
+    background-color: #00D68F;
+}
+.eva-btn-warning{
+    color: #000;
+    background-color:#FFAA00;
+}
+
+/* outline eva button  */
+.eva-outline-dark{
+    color: var(--basic-100, #000);
+    background: transparent;
+    border: 1px solid 1px solid #000;   
+}
+.eva-outline-primary{
+    background-color: transparent;
+    color: #36F;
+    border: 1px solid #36f;
+}
+.eva-outline-nuth{
+    background-color: transparent;
+    color: var(--main-color);
+    border: 1px solid var(--main-color);
+}
+.eva-outline-jasper{
+    background-color: transparent;
+    color: var(--primary-color, #fff);
+    border: 1px solid var(--primary-color);
+}
+.eva-outline-info{
+    background-color: transparent;
+    color: #00acee;
+    border: 1px solid #00acee;
+}
+.eva-outline-danger{
+    background-color: transparent;
+    color: #CD201F;
+    border: 1px solid #CD201F;
+}
+.eva-outline-success{
+    background-color: transparent;
+    color: #00D68F;
+    border: 1px solid #00D68F;
+}
+.eva-outline-warning{
+    background-color: transparent;
+    color:#FFAA00;
+    border: 1px solid #FFAA00;
+}
+.eva-outline-white{
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+
+/* basic eva hover button  */
+.eva-btn-dark:hover{
+    color: var(--basic-100, #FFF);
+    background: #141414;   
+}
+.eva-btn-primary:hover{
+    color: var(--basic-100, #FFF);
+    background-color: rgb(17, 75, 250);
+}
+.eva-btn-jasper:hover{
+    color: #fff;
+    background-color: var(--hover-primary-color);
+}
+.eva-btn-nuth:hover{
+    color: #fff;
+    background-color: #2e3996;
+}
+.eva-btn-info:hover{
+    color: #fff;
+    background-color: #0187bd;
+}
+.eva-btn-danger:hover{
+    color: #fff;
+    background-color: #d60909;
+}
+.eva-btn-success:hover{
+    color: #fff;
+    background-color: #01af75;
+}
+.eva-btn-warning:hover{
+    color: #000;
+    background-color:#be8004;
+}
+
+/* outline eva hover button  */
+.eva-outline-dark:hover{
+    color: var(--basic-100, #fff);
+    background: #000;
+    border: 1px solid #000;   
+}
+.eva-outline-primary:hover{
+    background-color: #36f;
+    color: #fff;
+    border: 1px solid #36f;
+}
+.eva-outline-nuth:hover{
+    background-color: var(--main-color);
+    color: #fff;
+    border: 1px solid var(--main-color);
+}
+.eva-outline-jasper:hover{
+    background-color: var(--primary-color);
+    color: #fff;
+    border: 1px solid var(--primary-color);
+}
+.eva-outline-info:hover{
+    background-color: #00acee;
+    color: #fff;
+    border: 1px solid #00acee;
+}
+.eva-outline-danger:hover{
+    background-color: #CD201F;
+    color: #fff;
+    border: 1px solid #CD201F;
+}
+.eva-outline-success:hover{
+    background-color: #00D68F;
+    color: #fff;
+    border: 1px solid #00D68F;
+}
+.eva-outline-warning:hover{
+    background-color: #FFAA00;
+    color:#fff;
+    border: 1px solid #FFAA00;
+}
+.eva-outline-white:hover{
+    background-color: #fff;
+    color: #000;
+
+}

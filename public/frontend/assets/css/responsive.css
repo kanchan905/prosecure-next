@@ -1,0 +1,222 @@
+
+
+@media screen and (max-width:1199px) {
+    .about-section{
+        width: 50%;
+        border-radius: 20px;
+    }
+    .number-section{
+        width: 50%;
+        border-radius: 0px 20px 20px 0px;
+    }
+    .number-section .frame h2{
+        margin-left: 0;
+        text-align: center;
+    }
+    .number-section .frame .number-count .count-down .count{
+        font-size: 62px;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .navbar-light .navbar-brand{
+        width: 13%;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .navbar-light .navbar-brand{
+        width: 29%;
+    }
+    .box .rectangle{
+        width: 32.33%;
+    }
+    .banner-profile{
+        width: 90%;
+    }
+    .rectangle-wrapper{
+        flex-direction: column;
+    }
+    .about-section, .number-section {
+        width: 100%;
+    }
+    .number-section{
+        border-radius: 20px;
+        margin: 2rem 0;
+    }
+    .column-hide{
+        display: none;
+    }
+    .navbar-light .navbar-nav .nav-link:has( .fa-whatsapp){
+        margin: 0 30px;
+    }
+ 
+}
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+    .number-section .frame .number-count .count-down .count{
+        font-size: 60px;
+    }
+    .navbar-light .navbar-brand{
+        width: 39%;
+    }
+    .about-section{
+        padding: 76px 50px;
+    }
+    .box .rectangle {
+        width: 100%;
+    }
+    .vision .profile-md{
+        margin: 2rem 0;
+    }
+    .vision :is(.vision-content, .director-name){
+        text-align: center;
+    }
+    .testimonial-container{
+        padding: 1em 0;
+    }
+    .container-wrapper{
+        margin-bottom: 0rem;
+    }
+    .container-wrapper .label .label-paragraph{
+        aspect-ratio: auto;
+    }
+    .banner-profile{
+        width: 100%;
+    }
+    .margin-resp{
+        margin: 1em 0;
+    }
+    .social-link{
+        justify-content: space-between;
+    }
+    .footer-nav-list{
+        margin-top: 15px;
+    }
+    .footer-nav-list .footnav-link{
+        margin-bottom: .5em;
+    }
+    .vision .section-title{
+        text-align: center;
+    }
+    .homepage-image {
+        margin: 5em 0;
+    }
+}
+
+@media screen and (max-width:575px) {
+    .banner-content{
+        margin: 0 58px;
+    }
+    .banner-content h3{
+        font-size: 40px;
+        
+    }
+    .box .rectangle{
+        margin: 0 58px;
+        padding: 0;
+    }
+    .rectangle-wrapper{
+        margin: 0 58px;
+    }
+    .about-section{
+        padding: 56px 50px;
+    }
+
+    .number-section .frame .number-count .count-down .count{
+        font-size: 38px;
+    }
+
+    .social-link{
+        justify-content: space-between;
+    }
+}
+
+
+@media screen and (max-width:457px) {
+    .navbar-light .navbar-brand{
+        width: 45%;
+    }
+    .banner-content{
+        margin: 0 0px;
+    }
+    .banner-content h3{
+        font-size: 40px;
+        
+    }
+    .box .rectangle{
+        margin: 0 10px;
+        padding: 0;
+    }
+    .rectangle-wrapper{
+        margin: 0 10px;
+    }
+    .about-section{
+        padding: 56px 18px;
+    }
+    
+    .number-section .frame{
+        padding: 45px 30px;
+    }
+    .number-section .frame .number-count .count-down .count{
+        font-size: 45px;
+        
+    }
+    .footer-brand{
+        width: 68%;
+    }
+
+}
+
+@media screen and (max-width:410px) {
+    .number-section .frame .number-count .count-down .count{
+        font-size: 30px;
+    }
+    .number-section .frame .number-count .count-down .count-text{
+        font-size: 10px;
+    }
+    .contact-form{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .number-section .frame .number-count .count-down .count{
+        font-size: 30px;
+    }
+    .number-section .frame .number-count .count-down .count-text{
+        font-size: 10px;
+    }
+    .frame-14 .icon{
+        width: 49px;
+    }
+    .frame-14 .icon i{
+        font-size: 32px;
+    }
+    .call-detail :is(h5, p){
+        font-size: 20px;
+    }
+    .number-section .frame h2{
+        font-size: 19px;
+        font-weight: 900;
+        margin-bottom: 40px;
+    }
+    .number-count {
+        display: block !important;
+    }
+    .number-section .frame .number-count .count-down{
+        margin-bottom: 1em;
+    }
+    .whatsapp-contact .bar{
+        height: 49px;
+    }
+  
+}
+

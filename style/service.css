@@ -1,0 +1,46 @@
+
+/* :root{
+    --heading: 'Montserrat', sans-serif;
+    --paragraph: 'Inter', sans-serif;
+    --highlight: 'Montserrat', sans-serif;
+    --main-color: #454E9F;
+    --primary-color:#D43647;
+} */
+.service-rectangle-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    height: 100%;
+}
+.service-rectangle-wrapper .frame{
+    margin: 0 1em;
+    padding: 1em;
+    border-radius: 5px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: stretch; */
+    height: 100%;
+}
+.service-rectangle-wrapper .frame h4{
+    margin-bottom: .5em;
+}
+.service-rectangle-wrapper .frame .frame-icon{
+    text-align: center;
+    font-size: 30px;
+    color: var(--primary-color);
+    margin-bottom: .5em;
+}
+.service-rectangle-wrapper .frame:hover{
+    background-color: var(--main-color);
+}
+
+.service-rectangle-wrapper .frame:hover :is(h4, p){
+    color: #fff;
+}
+
+@media screen and (max-width: 379px) {
+    .service-rectangle-wrapper .frame{
+        /* padding: 1em 0; */
+        margin: 0;
+    }
+}
